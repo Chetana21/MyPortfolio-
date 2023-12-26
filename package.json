@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://github.com/Chetana21/MyPortfolio-/blob/main/src/main.jsx",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "npm install --legacy-peer-deps && vite build",
     "preview": "vite preview"
