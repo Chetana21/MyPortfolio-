@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Chetana21/MyPortfolio-.git",
   "scripts": {
     "dev": "vite",
     "build": "npm install --legacy-peer-deps && vite build",
